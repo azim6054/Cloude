@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo su (su = swatch root user)
+apt-get update -y
+apt install apache2 -y
+service apache2 start
